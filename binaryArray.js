@@ -1,6 +1,6 @@
 class BinaryArray {
     
-    constructor(bytes = 1000) { //just set to something high
+    constructor(bytes = 1000) { //should be set to something high
         this.bytes = bytes;
     
         this.view = new Int32Array(this.bytes);
